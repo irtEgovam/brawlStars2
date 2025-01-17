@@ -1,0 +1,116 @@
+td{
+    background-color: rgba(255, 208, 0, 0.999);
+}
+body {
+    font-family: sans-serif;
+}
+header{
+    background-color: rgba(255, 208, 0, 0.999)  ;
+}
+h1{
+ text-align: center;
+    color:rgba(255, 208, 0, 0.999) ;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    }
+
+
+p{
+    background-color:rgba(255, 208, 0, 0.999)  ;
+}
+footer{
+    background-color: rgba(255, 208, 0, 0.999);
+}
+  header img{
+    width:70px;
+}
+ main img{
+   width: 300px;
+   height: 300px;
+   margin-left: 100px;
+   margin-top: 5px;
+   margin-bottom: 0px;
+   margin-right: 100px;
+   background-color:rgba(255, 208, 0, 0.999);
+   opacity: 0.6;
+}
+a{
+    background-color: orange;
+     padding-top: 3px ;
+    padding-bottom: 3px ;
+    padding-right: 3px ;
+    padding-left: 3px ;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+.POPULAR{
+    background-color: rgba(255, 208, 0, 0.999) ;
+    margin-bottom: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+nav a{
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+
+}
+a:hover{
+    left: 0;
+}
+.l{
+    top:80px;
+    background-color:#9fc25b ;
+}
+.s{
+    top:140px;
+    background-color:rgb(248, 103, 0);
+}
+.sh{
+    top:200px;
+    background-color: #f44336;
+}
+.c{
+    top:260px;
+    background-color: orange;
+}
+footer a:hover{
+    background-color: black;
+    color:rgba(255, 208, 0, 0.999)  ;
+}
+p:hover{
+   background-color: black;
+    color:rgba(255, 208, 0, 0.999)  ; 
+}
+main img:hover{
+opacity: 1;
+}
+nav{
+    position: fixed;
+}
+header img{
+    opacity: 1;
+}
+header img:hover{
+    opacity: 0.6;
+}
+
+
+
+
+
+
