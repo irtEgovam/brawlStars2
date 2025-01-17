@@ -1,0 +1,212 @@
+body {
+    font-family: sans-serif;
+    background-color:rgba(255, 248, 106, 0.951);
+}
+header{
+    width: 1000px;
+    background-color: rgba(255, 208, 0, 0.999)  ;   
+}
+h1{
+    text-align: center;
+    color:rgba(255, 208, 0, 0.999) ;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+h2{
+    text-align: center;
+    color:orange ;
+
+}
+footer{
+    background-color: rgba(255, 208, 0, 0.999);
+}
+  header img{
+    width:70px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+  main img{
+   width: 300px;
+   height: 152px;
+   margin-left: 30px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-right: 10px;
+   background-color:rgba(255, 208, 0, 0.999);
+   position: relative;
+   
+
+}
+a{
+    background-color: orange;
+    margin-left:  300px;
+    margin-top: 20px;
+    border-radius: 30px  ;
+    color: black;
+    text-decoration: none;
+    padding-top: 3px ;
+    padding-bottom: 3px ;
+    padding-right: 3px ;
+    padding-left: 3px ;
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bs{
+    background-color:rgba(255, 208, 0, 0.999);
+     display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-around;
+}
+header a{
+    margin: 10px;
+    margin-right:100px ;
+}
+
+ul{
+ text-align:center;
+ color:orange;
+ position:relative;
+}
+nav a{
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+span{
+    background-color: orange;
+}
+aside{
+  position: fixed;  
+  right: 0;
+  top:100px;
+  width: 90px;
+  height:120px;
+  border-radius: 10%;
+  background-color: crimson;
+  padding:20px;
+  
+}
+.aside-text{
+    color: white;
+    font-size: 15px;
+}
+.social{
+    margin: 0px 0px 20px 20px;
+    display: block;
+    width: 20px;
+    
+}
+.social img{
+    width: 50px;
+    height: 50px;
+}
+.imgg{
+    position: absolute;
+    display: inline-block;
+    left: 280px;
+    top: 173px;
+    width: 30px;
+    height: 35px;
+}
+nav a{
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    display: inline-block;
+}
+a:hover{
+    left: 0;
+}
+.brst{
+     top:5px;
+    background-color:coral;
+}
+.br_st{
+    top:65px;
+    background-color:orange;
+}
+footer a:hover{
+background-color: black;
+color: rgba(255, 208, 0, 0.999);
+}
+nav a:focus{
+    background-color:rgba(255, 208, 0, 0.999) ;
+}
+span{
+    background-color: orange;
+}
+.page:hover{
+    background-color: blue;
+}
+.install:hover{
+background-color: black;
+color: rgba(255, 208, 0, 0.999);
+}
+span:hover{
+background-color: black;
+color: rgba(255, 208, 0, 0.999);
+}
+.brimg:hover{
+    width: 400px;
+    height: 200px;
+}
+nav{
+    position: fixed;
+}
+h1::before{
+    content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png");
+    width: 20px;
+    display: inline-block;
+    margin-right:15px ;
+}
+
+h1::after{
+    content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png" );
+    width: 20px;
+    display: inline-block;
+    margin-left:15px ;
+}
+footer a::before{
+    content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png");
+    width: 20px;
+    display: inline-block;
+    margin-right:15px ;
+}
+.text{
+   position: relative; 
+   left: 200px;
+}
+main p:hover{
+    padding-left: 20px;
+   font-weight: bolder; 
+   color: aliceblue;
+}
+aside:hover{
+    width: 150px;
+    height: 100px;
+}
+h1:hover{
+    color: aliceblue;
+    background-color: crimson;
+}
